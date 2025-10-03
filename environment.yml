@@ -1,0 +1,30 @@
+name: mapch30
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+
+  # Geo stack
+  - geopandas
+  - shapely
+  - pyproj
+  - rtree
+  - fiona
+  - gdal
+  - osmnx
+  - contextily
+  - xyzservices
+
+  # Numerics & plotting
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+
+  # Notebooks
+  - jupyterlab
+  - ipykernel
+
+  # GPS parsing
+  - gpxpy
+  - fitparse
